@@ -1,0 +1,58 @@
+/* ============================================
+   GUESTBOOK TABLE - alternating rows FIXED
+   ============================================ */
+
+.guestbook-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+/* Header */
+.guestbook-table thead tr {
+    background-color: #2c2c3e;
+}
+
+.guestbook-table th {
+    padding: 12px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+/* Remove default row background */
+.guestbook-table tbody tr {
+    background: none;
+}
+
+/* ODD rows = white */
+.guestbook-table tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+/* EVEN rows = your purple/blue */
+.guestbook-table tbody tr:nth-child(even) td {
+    background-color: #5c6bc0; /* adjust if you want exact match */
+    color: #ffffff;
+}
+
+/* Hover */
+.guestbook-table tbody tr:hover td {
+    background-color: #dce8ff;
+    color: #333;
+}
+
+.guestbook-table td {
+    padding: 11px 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    font-size: 0.9rem;
+}
+
+/* Name column */
+.guestbook-table td.name-col {
+    font-weight: 500;
+}

@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/Users/erfanmirzaee/Downloads/dev/workplace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2906573561.index
+1983121321.index
+677391752.index
+3711123056.index
+2812939428.index
+291915808.index
+4214361352.index
+2150791819.index
+256203284.index

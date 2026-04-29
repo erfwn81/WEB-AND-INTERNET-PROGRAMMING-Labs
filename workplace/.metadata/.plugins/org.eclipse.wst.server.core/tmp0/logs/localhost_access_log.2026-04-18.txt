@@ -1,0 +1,4 @@
+127.0.0.1 - - [18/Apr/2026:21:36:43 -0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Apr/2026:21:36:43 -0700] "GET /HolidayCalendar/ HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [18/Apr/2026:21:36:43 -0700] "GET /HolidayCalendar/assets/styles/styles.css HTTP/1.1" 200 1351
+0:0:0:0:0:0:0:1 - - [18/Apr/2026:21:36:45 -0700] "GET /HolidayCalendar/HolidayCalendar HTTP/1.1" 200 1960

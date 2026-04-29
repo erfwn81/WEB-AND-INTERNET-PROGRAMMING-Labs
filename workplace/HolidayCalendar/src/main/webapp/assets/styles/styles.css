@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #2c6db4, #6b59b8);
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.table-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.holiday-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background: transparent;
+}
+
+/* Header */
+.holiday-table th {
+    font-size: 26px;
+    padding: 12px;
+    border-bottom: 2px solid black;
+}
+
+/* Table cells */
+.holiday-table td {
+    padding: 12px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+/* Zebra striping */
+.holiday-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.holiday-table tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+/* Hover highlight */
+.holiday-table tbody tr:hover {
+    background-color: lightblue;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+.date-col {
+    width: 220px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.actions {
+    margin-top: 25px;
+}

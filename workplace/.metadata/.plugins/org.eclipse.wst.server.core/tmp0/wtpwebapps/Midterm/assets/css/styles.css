@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(120deg, #2980b9, #8e44ad);
+	height: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.header {
+	font-size: 150%;
+}
+
+.divTable{
+	display: table;
+	width: 35%;
+	margin: auto;
+}
+
+.divTableHead {
+	display: table-header-group;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	display: table-cell;
+	padding: 8px 12px;
+	color: white;
+	vertical-align: middle;
+}
+
+.divTableHead .divTableCell {
+	color: #333333;
+	padding: 10px 12px;
+}
+
+.systemMessage {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 0;
+	}
