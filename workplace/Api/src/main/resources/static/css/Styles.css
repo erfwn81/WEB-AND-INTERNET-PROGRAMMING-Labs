@@ -1,0 +1,28 @@
+body { background: #f4f6fb; }
+
+.auth-container {
+    max-width: 480px;
+    margin-top: 80px;
+}
+
+.auth-card {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    color: #fff;
+    border: 0;
+    box-shadow: 0 6px 18px rgba(0,0,0,.15);
+}
+
+.auth-card .form-label { color: #fff; }
+.auth-card .card-body { padding: 1.75rem; }
+
+.message-card {
+    border-left: 4px solid #6a82fb;
+    margin-bottom: 12px;
+}
+
+.message-meta {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.message-actions button { margin-left: 4px; }
